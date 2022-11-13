@@ -1,0 +1,23 @@
+:root {
+    /* CSS HEX */
+    --wild-blue-yonder: #9fa4c4ff;
+    --sunglow: #ffd046ff;
+    --tart-orange: #fe4a49ff;
+    --dark-purple: #331e38ff;
+    --blue-munsell: #068d9dff;
+
+    /* CSS HSL */
+    --wild-blue-yonder: hsla(232, 24%, 70%, 1);
+    --sunglow: hsla(45, 100%, 64%, 1);
+    --tart-orange: hsla(0, 99%, 64%, 1);
+    --dark-purple: hsla(288, 30%, 17%, 1);
+    --blue-munsell: hsla(186, 93%, 32%, 1);
+}
+
+body {
+    background-color: var(--wild-blue-yonder);
+    color: var(--dark-purple);
+}
+
+
+
